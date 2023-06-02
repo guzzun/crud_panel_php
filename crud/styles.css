@@ -1,0 +1,85 @@
+:root{
+    --secondary: #1a1a1a;
+    --primary: #0D0D0D;
+    --yellow: #cdb01d;
+}
+
+*{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe\ UI,Roboto,
+    Helvetica\ Neue,Arial,Noto\ Sans,sans-serif;
+    margin: 0;
+    box-sizing: border-box;	
+}
+
+body {
+    font-family:Trebuchet;
+}
+input {
+    font-family:Trebuchet;
+    font-size:14px;
+}
+label{
+    font-family:Trebuchet;
+    font-size:14px;
+    color:#999999;
+}
+.tblSaveForm {
+    border-top:2px #999999 solid;
+    background-color: #f8f8f8;
+}
+.tableheader {
+    background-color: #fedc4d;
+}
+.tablerow {
+    background-color: #A7D6F1;
+    color:white;
+}
+.btnSubmit {
+    background-color:#fd9512;
+    padding:5px;
+    border-color:#FF6600;
+    border-radius:4px;
+    color:white;
+}
+.message {
+    color: #FF0000;
+    text-align: center;
+    width: 100%;
+}
+.txtField {
+    padding: 5px;
+    border:#fedc4d 1px solid;
+    border-radius:4px;
+}
+.evenRow {
+    background-color: #E2EDF9;
+    font-size:15px;
+    color:#101010;
+}
+.evenRow:hover {
+    background-color: #ffef46;
+}
+.oddRow {
+    background-color: #B3E8FF;
+    font-size:15px;
+    color:#101010;
+}
+.oddRow:hover {
+    background-color: #ffef46;
+}
+.tblListForm {
+    border-top:2px #999999 solid;
+}
+.listheader {
+    text-align: center;
+    background-color: #1A293B;
+    font-size:13px;
+    font-weight:500;
+    color:#fff;
+}
+.link{
+    text-decoration:none;
+    color:#5e8fc7;
+    font-size:14px;
+}
+    

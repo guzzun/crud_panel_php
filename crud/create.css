@@ -1,0 +1,54 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background: #d9d9d9;
+}
+
+form{
+	padding-top: 50px;
+	width: 45%;
+	margin: 0 auto;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+}
+
+
+a.btn_return{
+
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: firebrick;
+}
+
+label{
+	
+	font-size:18px; 
+	padding: 10px;
+	color:black;
+}
+
+input{
+	font-size: 16px;
+}
+
+input.btn_submit {
+	background-color: #9acd32;
+	border: none;
+	font-size: 20px;
+	padding: 10px 140px;
+	color: black;
+	cursor: pointer;
+	margin: 20px 0px;
+}
+
+input.btn_submit:hover {
+	background: #b8dc6f;
+	transition: background linear .7s; 
+}
+
+
